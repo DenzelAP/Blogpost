@@ -1,0 +1,17 @@
+.main {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+}
+
+.welcomeBox {
+  background-color: white;
+  border: 5px solid lightpink;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

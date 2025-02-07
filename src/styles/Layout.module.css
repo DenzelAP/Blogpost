@@ -1,0 +1,75 @@
+.topNav {
+  background-color: darkgray;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.topNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.topNav ul li {
+  float: right;
+}
+
+.topNav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.topNav ul li a:hover {
+  background-color: rgb(175, 127, 134);
+}
+
+.topNav ul li a.active {
+  background-color: lightpink;
+}
+
+.headerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.layoutFooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 100vw;
+}
+
+.leftBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  width: 20rem;
+  height: 0;
+  border: 2px solid lightpink;
+}
+
+.leftBarContainer {
+  margin-top: 1.5rem;
+}
+
+.rightBarContainer {
+  margin-top: 1.5rem;
+}
+
+.rightBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  width: 20rem;
+  height: 0;
+  border: 2px solid lightpink;
+}

@@ -1,0 +1,11 @@
+.buttonM {
+  padding: 5px;
+  background-color: lightpink;
+  color: white;
+  border-radius: 4%;
+  border: 2px solid rgb(175, 127, 134);
+}
+
+.buttonM:hover {
+  background-color: rgb(175, 127, 134);
+}
