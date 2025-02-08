@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <div className={styles.leftBar}></div>
         </div>
 
-        <p>&#169; 2025 Blox NV. - Alle rechten voorbehouden</p>
+        <p>&#169; 2025 Blox NV. - Alle rechten voorbehouden.</p>
 
         <div className={styles.rightBarContainer}>
           <div className={styles.rightBar}></div>
