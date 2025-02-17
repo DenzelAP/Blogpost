@@ -11,18 +11,26 @@ const NavigationBar = () => {
       <ul>
         <li>
           <Link
-            href="/blogs"
-            className={router.pathname.includes("/blogs") ? styles.active : ""}
-          >
-            Blogs
-          </Link>
-        </li>
-        <li>
-          <Link
             href="/"
             className={router.pathname == "/" ? styles.active : ""}
           >
             Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/about"
+            className={router.pathname == "/about" ? styles.active : ""}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/blogs"
+            className={router.pathname.includes("/blogs") ? styles.active : ""}
+          >
+            Blogs
           </Link>
         </li>
       </ul>

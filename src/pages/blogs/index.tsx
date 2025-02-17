@@ -4,7 +4,7 @@ import Blog from "@/components/Blog";
 const Blogs = () => {
   const messageWeek1: string =
     "In de eerste week lag de focus vooral op het leren kennen van de systemen, onze collega's en SQL + PL/SQL.";
-  const messageWeek2: string = "";
+  const messageWeek2: string = "In de tweede week hebben we ons vooral bezig gehouden met leren van Oracle Apex.";
   return (
     <div>
       <div className={styles.mainHeader}>

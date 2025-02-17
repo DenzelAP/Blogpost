@@ -1,19 +1,55 @@
 .main {
-  margin: 5rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  gap: 1rem;
-  height: 23rem;
+  align-items: center;
+  padding: 1rem;
+  width: 1fr;
+  height: 1fr;
 }
 
-.welcomeBox {
-  background-color: white;
+.mainLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1fr;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.mainRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1fr;
+  margin: 2rem;
+}
+
+.imgContainer {
+  padding: 1rem;
+}
+
+.myImage {
+  width: 350px;
+  height: 350px;
+  border-radius: 14px;
+}
+
+.learnMore {
+  margin-left: 10rem;
+}
+
+.mainHome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.welcomeText{
   border: 2px solid lightpink;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
 }
-

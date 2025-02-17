@@ -1,7 +1,6 @@
 .topNav {
   background-color: darkgray;
-  width: 100%;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .topNav ul {
@@ -11,17 +10,15 @@
   overflow: hidden;
 }
 
-.topNav ul li {
-  float: right;
-}
-
 .topNav ul li a {
-  display: block;
-  color: white;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 0 1rem 0;
   text-decoration: none;
-  border-radius: 10%;
+  border-radius: 10px;
+  color: white;
+
 }
 
 .topNav ul li a:hover {
