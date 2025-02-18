@@ -1,4 +1,3 @@
-import SkillsSlideshow from "@/components/SkillsSlideShow";
 import styles from "@/styles/Home.module.css";
 
 const Home = () => {

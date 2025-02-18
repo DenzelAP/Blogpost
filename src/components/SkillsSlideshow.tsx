@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import styles from "@/styles/Slideshow.module.css";
 
 const skills = [
   'React',
@@ -28,9 +29,9 @@ const SkillsSlideshow: React.FC = () => {
   }, []);
 
   return (
-    <div className="skills-slideshow">
-      <div className="slideshow">
-        <h2 className="skill-text">{skills[currentIndex]}</h2>
+    <div className={styles.skillsSlideshow}>
+      <div className={styles.slideshow}>
+        <h2 className={styles.skillText}>{skills[currentIndex]}</h2>
       </div>
     </div>
   );
