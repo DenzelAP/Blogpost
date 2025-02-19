@@ -1,0 +1,12 @@
+.blogPageContainer {
+  background-color: lightgray;
+  color: #ffffff; /* Witte tekstkleur */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.blogTimestamp {
+  font-style: italic;
+}

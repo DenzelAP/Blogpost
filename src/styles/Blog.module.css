@@ -1,80 +1,108 @@
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1fr;
+  margin: 3rem 0;
 }
 
-.content {
-  margin: 1rem 0;
-  font-size: 1rem;
+.companyInfo {
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+}
+
+.companyInfoTitle {
+  font-size: 2rem;
   color: #333;
+  margin-bottom: 1rem;
 }
 
-.timestamp {
-  color: #666;
+.companyInfoList {
+  list-style-type: none;
+  padding: 0;
 }
 
-.blogContainer {
-  text-align: center;
-  padding: 1rem;
-  margin: 5rem;
-  background-color: #f4f4f4;
-  height: 25rem;
-  width: 25rem;
+.companyInfoSubTitle {
+  color: lightpink;
+  margin-bottom: 0.5rem;
 }
 
-.blogFrame {
-  border: 1px solid black;
-  border-radius: 10px;
+.companyInfoListItem {
+  padding: 1rem 1.5rem;
+  background-color: #f7f7f7; /* Lichte achtergrond om het er klikbaar uit te laten zien */
+  border: 1px solid #ddd; /* Grijze rand voor extra definitie */
+  border-radius: 5px;
+  color: #555;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer; /* Geeft aan dat het klikbaar is */
+}
+
+.companyInfoListItem:hover {
+  background-color: #e0e0e0; /* Lichte grijze achtergrond bij hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg schaduw toe voor een knop-effect */
+  transform: translateY(-2px); /* Verhoogt de lijstitem bij hover voor een interactief gevoel */
+}
+
+.companyInfoListItem a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.companyInfoListItem a:hover {
+  text-decoration: underline;
+  color: #333; /* Verduidelijk de kleur bij hover om het meer zichtbaar te maken */
+}
+
+.blogList {
+  width: 80%;
+  max-width: 900px;
+}
+
+.blogHeader {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.blogItem {
   padding: 1rem;
   margin-bottom: 1rem;
-  max-width: 25rem;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-.mainHeader {
-  text-align: center;
-  border: 2px solid lightpink;
-  padding: 2rem;
-  margin: 2rem;
+.blogItem:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
-.stageLijst {
-  list-style-type: none;
-}
-
-.stageLijstItem {
-  background: white;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem 0;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.listContainer {
-  display: flex;
-  flex-direction: row;
-}
-
-.infoTitle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-
-.title {
-  margin: 0;
-  padding: 1rem;
-  font-size: 1.2rem;
-  border-bottom: 2px solid lightpink;
-}
-
-.blogTitle {
-  padding: 0.5rem;
-  margin: 0;
+.blogLink {
+  text-decoration: none;
   color: lightpink;
-  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.blogLink:hover {
+  color: #e84f7d; /* Donkerdere roze voor hover effect */
+}
+
+.blogDate {
+  font-size: 0.9rem;
+  color: #888;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.blogItem p {
+  margin: 0;
 }
