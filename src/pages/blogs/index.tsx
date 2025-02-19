@@ -15,7 +15,7 @@ const Blogs = () => {
           <h4 className={styles.companyInfoSubTitle}>Stageplek: </h4>
           <li className={styles.companyInfoListItem}><a href="http://www.contribute.be" target="_blank" rel="noopener noreferrer">Contribute</a></li>
           <h4 className={styles.companyInfoSubTitle}>Stagementor: </h4>
-          <li className={styles.companyInfoListItem}><a href="https://be.linkedin.com/in/filiphuysmans?original_referer=https%3A%2F%2Fwww.google.com%2F">Filip Huysman</a></li>
+          <li className={styles.companyInfoListItem}><a href="https://be.linkedin.com/in/filiphuysmans?original_referer=https%3A%2F%2Fwww.google.com%2F">Filip Huysmans</a></li>
           <h4 className={styles.companyInfoSubTitle}>Technologien: </h4>
           <li className={styles.companyInfoListItem}>Oracle Apex</li>
           <li className={styles.companyInfoListItem}>SQL</li>

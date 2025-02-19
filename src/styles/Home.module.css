@@ -6,6 +6,7 @@
   padding: 1rem;
   width: 1fr;
   height: 1fr;
+  max-width: 1fr;
 }
 
 .mainLeft {
@@ -47,6 +48,7 @@
   align-items: center;
   margin-top: 1rem;
   height: 1fr;
+  max-width: 1fr;
 }
 
 .welcomeText{

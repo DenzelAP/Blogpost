@@ -1,6 +1,7 @@
 .topNav {
   background-color: darkgray;
   border-radius: 10px;
+  max-width: 1fr;
 }
 
 .topNav ul {
