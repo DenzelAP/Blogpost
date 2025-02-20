@@ -1,12 +1,13 @@
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   width: 1fr;
   height: 1fr;
   max-width: 1fr;
+  position: relative;
 }
 
 .mainLeft {
@@ -17,15 +18,7 @@
   width: 1fr;
   padding: 1rem;
   margin: 1rem;
-}
-
-.mainRight {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 1fr;
-  margin: 2rem;
+  max-width: 1fr;
 }
 
 .imgContainer {
@@ -64,4 +57,10 @@
   animation: fade-in 0.5s ease-in-out;
   color: lightpink;
   text-decoration: none;
+}
+
+.socialLinks {
+  position: absolute;
+  bottom: -20%;
+  left: 30%;
 }
