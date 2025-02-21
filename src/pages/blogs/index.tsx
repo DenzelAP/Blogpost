@@ -4,6 +4,7 @@ import styles from "@/styles/Blog.module.css";
 const blogList = [
   { id: "week-1", title: "Week 1", date: "03/02/25 - 07/02/25" },
   { id: "week-2", title: "Week 2", date: "10/02/25 - 15/02/25" },
+  { id: "week-3", title: "Week 3", date: "17/02/25 - 22/02/25" },
 ];
 
 const Blogs = () => {
