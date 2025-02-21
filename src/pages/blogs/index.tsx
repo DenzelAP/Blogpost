@@ -44,6 +44,7 @@ const Blogs = () => {
           applicatie-integratie en een 'software factory' met een team van
           Oracle APEX-specialisten die kwaliteitsvolle applicaties ontwikkelen.
         </p>
+        <Link href="/extra">More...</Link>
       </div>
       <div className={styles.blogList}>
         <h1 className={styles.blogHeader}>Beschikbare Blogs</h1>

@@ -1,0 +1,60 @@
+/* Extra.module.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  
+  .headingHover {
+    color: lightpink;
+  }
+  
+  .subheading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+  }
+  
+  .subheadingHover {
+    color: lightpink;
+  }
+  
+  .paragraph {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+  }
+  
+  .list {
+    list-style-type: disc;
+    padding-left: 30px;
+  }
+  
+  .listItem {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  ul.list li::marker {
+    color: #ec7063;
+  }
+  
