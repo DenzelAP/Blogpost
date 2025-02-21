@@ -56,6 +56,20 @@ const Extra = () => {
         <li>Alle conventies</li>
         <li>Liquibase</li>
       </ul>
+      <h3
+        className={`${styles.subheading} ${
+          hoverHeading ? styles.subheadingHover : ""
+        }`}
+        onMouseEnter={() => setHoverSubheading(true)}
+        onMouseLeave={() => setHoverSubheading(false)}
+      >
+        Collega's
+      </h3>
+      <p className={styles.paragraph}>
+        De kennismaking met de collega's verliep vlot. Iedereen was heel
+        behulpzaam en vriendelijk. Ik kreeg een goede begeleiding en kon altijd
+        bij iemand terecht met vragen.
+      </p>
     </div>
   );
 };
