@@ -67,8 +67,9 @@ const Extra = () => {
       </h3>
       <p className={styles.paragraph}>
         De kennismaking met de collega's verliep vlot. Iedereen was heel
-        behulpzaam en vriendelijk. Ik kreeg een goede begeleiding en kon altijd
-        bij iemand terecht met vragen.
+        behulpzaam en vriendelijk. Ik kon altijd
+        bij iemand terecht met vragen. De sfeer op de werkvloer was goed en
+        ik voelde me snel op mijn gemak.
       </p>
     </div>
   );
