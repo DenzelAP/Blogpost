@@ -33,7 +33,7 @@ const blogData: Record<string, Blog> = {
     title: "Week 4",
     content: "Gedurende week 4 hebben we verder gewerkt aan het 4me-Tia-project. We hebbe behoorlijk wat vooruitgang geboekt. Ik heb zelf een grote fout gemaakt door een clear schema script te runnen op de verkeerde database. Hierdoor was alle data weg en moest Filip iemand raadplegen om de data terug te krijgen.",
     subcontent:
-      "Het 4me-Tia-project vereist de ontwikkeling van APEX-schermen om beheertaken te vergemakkelijken. Deze schermen zijn essentieel voor beheerders om alle benodigde gegevens te configureren via een intuïtieve en gebruiksvriendelijke interface. Er worden meerdere schermen gemaakt om de configuratie van verschillende instellingen te ondersteunen. Het was zeker een uitdaging om samen met Shreejan de meeste funtionaliteit van Oracle Apex uit te zoeken aangezien we maar 1 dag opleiding hierover kregen.",
+      "De reden waarom ik dit deed was omdat ik dacht dat ik op de testomgeving zat maar ik zat op de productieomgeving. Ik heb hieruit geleerd dat ik altijd moet controleren of ik op de juiste omgeving zit. En indien mogelijk altijd een backup moet maken van de data voordat ik zo'n script run. ",
     timestamp: "17/02/25 - 21/02/25",
   },
 };

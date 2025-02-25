@@ -34,6 +34,17 @@ const Extra = () => {
         <li>Tia 4 Me</li>
         <li>Interne HR Tool</li>
       </ul>
+      <p  className={styles.paragraph}>
+        Het 4me-Tia-project vereist de ontwikkeling van APEX-schermen om
+        beheertaken te vergemakkelijken. Deze schermen zijn essentieel voor
+        beheerders om alle benodigde gegevens te configureren via een intuïtieve
+        en gebruiksvriendelijke interface. Er worden meerdere schermen gemaakt
+        om de configuratie van verschillende instellingen te ondersteunen. Het
+        was zeker een uitdaging om samen met Shreejan de meeste funtionaliteit
+        van Oracle Apex uit te zoeken aangezien we maar 1 dag opleiding hierover
+        kregen.
+      </p>
+
       <h3
         className={`${styles.subheading} ${
           hoverHeading ? styles.subheadingHover : ""
@@ -67,9 +78,8 @@ const Extra = () => {
       </h3>
       <p className={styles.paragraph}>
         De kennismaking met de collega's verliep vlot. Iedereen was heel
-        behulpzaam en vriendelijk. Ik kon altijd
-        bij iemand terecht met vragen. De sfeer op de werkvloer was goed en
-        ik voelde me snel op mijn gemak.
+        behulpzaam en vriendelijk. Ik kon altijd bij iemand terecht met vragen.
+        De sfeer op de werkvloer was goed en ik voelde me snel op mijn gemak.
       </p>
     </div>
   );

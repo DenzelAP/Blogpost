@@ -12,11 +12,13 @@ const BlogPage = () => {
   }
 
   return (
-    <div className={styles.blogPageContainer}>
-      <h1 className={styles.blogTitle}>{blog.title}</h1>
-      <p className={styles.blogContent}>{blog.content}</p>
-      <p className={styles.blogSubcontent}>{blog.subcontent}</p>
-      <small className={styles.blogTimestamp}>{blog.timestamp}</small>
+    <div className={styles.blogPage}>
+      <div className={styles.blogPageContainer}>
+        <h1 className={styles.blogTitle}>{blog.title}</h1>
+        <p className={styles.blogContent}>{blog.content}</p>
+        <p className={styles.blogSubcontent}>{blog.subcontent}</p>
+        <small className={styles.blogTimestamp}>{blog.timestamp}</small>
+      </div>
     </div>
   );
 };

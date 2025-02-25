@@ -1,6 +1,6 @@
 .blogPageContainer {
   background-color: lightgray;
-  color: #ffffff; /* Witte tekstkleur */
+  color: #ffffff;
   padding: 20px;
   font-family: Arial, sans-serif;
   border-radius: 10px;
@@ -9,4 +9,18 @@
 
 .blogTimestamp {
   font-style: italic;
+}
+
+.blogPage {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+
+.blogPageImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
