@@ -33,8 +33,8 @@ const blogData: Record<string, Blog> = {
     title: "Week 4",
     content: "Gedurende week 4 hebben we verder gewerkt aan het 4me-Tia-project. We hebbe behoorlijk wat vooruitgang geboekt. Ik heb zelf een grote fout gemaakt door een clear schema script te runnen op de verkeerde database. Hierdoor was alle data weg en moest Filip iemand raadplegen om de data terug te krijgen.",
     subcontent:
-      "De reden waarom ik dit deed was omdat ik dacht dat ik op de testomgeving zat maar ik zat op de productieomgeving. Ik heb hieruit geleerd dat ik altijd moet controleren of ik op de juiste omgeving zit. En indien mogelijk altijd een backup moet maken van de data voordat ik zo'n script run. ",
-    timestamp: "17/02/25 - 21/02/25",
+      "De reden waarom ik dit deed was omdat ik dacht dat ik op de dev-omgeving zat maar ik zat op de test-omgeving. Ik heb hieruit geleerd dat ik altijd moet controleren of ik op de juiste omgeving zit. En indien mogelijk altijd een backup moet maken van de data voordat ik zo'n script run. ",
+    timestamp: "24/02/25 - 28/02/25",
   },
 };
 
