@@ -37,6 +37,7 @@
 
 .mainHome{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
@@ -48,7 +49,7 @@
   border: 2px solid lightpink;
   border-radius: 14px;
   padding: 1rem;
-  margin-top: 5rem;
+  margin: 5rem;
 }
 
 .internship {
@@ -63,4 +64,17 @@
   position: absolute;
   bottom: -20%;
   left: 30%;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  margin: 3rem 1rem 0rem 1rem;
+}
+
+.pinkWord {
+  color: lightpink;
 }
