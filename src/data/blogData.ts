@@ -43,6 +43,13 @@ const blogData: Record<string, Blog> = {
       "Het uitdagend deel van de tickets zijn de functionaliteiten om de verschillende data te kunnen configureren. We hebben hiervoor een aantal schermen moeten maken en de data moeten kunnen ophalen en opslaan in de database. We hebben ook een aantal schermen moeten maken om de data te kunnen visualiseren.",
     timestamp: "03/03/25 - 07/03/25",
   },
+  "week-6": {
+    title: "Week 6",
+    content: "Week 6 dachten we klaar te zijn met het 4me-Tia-project maar we hadden nog een aantal openstaande tickets. Het laatste grote werk was het verbeteren van het datamodel dat we hadden gekregen en het verbeteren van het scherm om de uren te kunnen registreren.",
+    subcontent:
+      "Het datamodel was niet goed geoptimaliseerd en we hadden dit moeten aanpassen. Het scherm om de uren te registreren was ook niet gebruiksvriendelijk dus hebben we dit veranderd.",
+    timestamp: "10/03/25 - 14/03/25",
+  },
 };
 
 export default blogData;
