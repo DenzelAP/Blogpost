@@ -24,3 +24,13 @@
   height: auto;
   border-radius: 10px;
 }
+
+.blogImage {
+  width: 800px;
+  height: auto;
+}
+
+.slideshow {
+  margin-top: 20px;
+  text-align: center;
+}

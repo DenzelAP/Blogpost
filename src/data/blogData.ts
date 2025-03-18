@@ -50,6 +50,13 @@ const blogData: Record<string, Blog> = {
       "Het datamodel was niet goed geoptimaliseerd en we hadden dit moeten aanpassen. Het scherm om de uren te registreren was ook niet gebruiksvriendelijk dus hebben we dit veranderd.",
     timestamp: "10/03/25 - 14/03/25",
   },
+  "week-7": {
+    title: "Week 7",
+    content: "Tijdens week 7 hebben we het Tia4Me project afgerond. De laatste schermen zijn gemaakt en de laatste bugs zijn opgelost.",
+    subcontent:
+      "In mijn geval waren de grootste bugs omtrent het inboeken en editeren van gewerkte tijden. Tijden konden in verschillende ranges (18:00-22:00 & 06:00-08:00 & 10:00-18:00) worden ingegeven, wat een behoorlijke uitdaging was om te valideren. Dit heb ik opgelost door packages en procedures te schrijven die de tijden valideren en opslaan in de database.",
+    timestamp: "17/03/25 - 21/03/25",
+  },
 };
 
 export default blogData;

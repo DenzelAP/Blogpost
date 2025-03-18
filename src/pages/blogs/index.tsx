@@ -3,11 +3,12 @@ import styles from "@/styles/Blog.module.css";
 
 const blogList = [
   { id: "week-1", title: "Week 1", date: "03/02/25 - 07/02/25" },
-  { id: "week-2", title: "Week 2", date: "10/02/25 - 15/02/25" },
-  { id: "week-3", title: "Week 3", date: "17/02/25 - 22/02/25" },
+  { id: "week-2", title: "Week 2", date: "10/02/25 - 14/02/25" },
+  { id: "week-3", title: "Week 3", date: "17/02/25 - 21/02/25" },
   { id: "week-4", title: "Week 4", date: "24/02/25 - 28/02/25" },
   { id: "week-5", title: "Week 5", date: "03/03/25 - 07/03/25" },
   { id: "week-6", title: "Week 6", date: "10/03/25 - 14/03/25" },
+  { id: "week-7", title: "Week 7", date: "17/03/25 - 21/03/25" },
 ];
 
 const Blogs = () => {
