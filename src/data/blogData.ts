@@ -57,6 +57,19 @@ const blogData: Record<string, Blog> = {
       "In mijn geval waren de grootste bugs omtrent het inboeken en editeren van gewerkte tijden. Tijden konden in verschillende ranges (18:00-22:00 & 06:00-08:00 & 10:00-18:00) worden ingegeven, wat een behoorlijke uitdaging was om te valideren. Dit heb ik opgelost door packages en procedures te schrijven die de tijden valideren en opslaan in de database.",
     timestamp: "17/03/25 - 21/03/25",
   },
+  "week-8": {
+    title: "Week 8",
+    content: "In week 8 hadden we het eerste project afgerond en hebben we 2 demo's gegeven. De eerste demo was voor onze collega's en de tweede demo was voor de klant.",
+    subcontent:
+      "We hebben veel positieve feedback gekregen van onze collega's en de klant. We hebben ook een aantal verbeterpunten gekregen die we in de toekomst kunnen implementeren.",
+    timestamp: "17/03/25 - 21/03/25",
+  },"week-9": {
+    title: "Week 9",
+    content: "In week 9 moesten we de punten die we als feedback hadden gekregen van de klant implementeren. Dit was een behoorlijke uitdaging omdat we niet veel tijd hadden en we ook nog een ander project moesten doen.",
+    subcontent:
+      "We hebben de feedback in 1 week kunnen implementeren en hebben dit ook getest. We hebben ook een aantal nieuwe functionaliteiten toegevoegd die we zelf hadden bedacht.",
+    timestamp: "17/03/25 - 21/03/25",
+  },
 };
 
 export default blogData;
