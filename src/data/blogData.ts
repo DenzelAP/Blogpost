@@ -69,6 +69,12 @@ const blogData: Record<string, Blog> = {
     subcontent:
       "We hebben de feedback in 1 week kunnen implementeren en hebben dit ook getest. We hebben ook een aantal nieuwe functionaliteiten toegevoegd die we zelf hadden bedacht.",
     timestamp: "17/03/25 - 21/03/25",
+  },"week-10": {
+    title: "Week 10",
+    content: "Week 10 was een week waaraan we aan het 2de project hebben gewerkt 'Centerfield'. Dit project is een interne HR-tool die we hebben gemaakt voor de HR-afdeling.",
+    subcontent:
+      "Het doel van het Centerfield project is om een tool te maken die de HR-afdeling helpt bij het beheren van de medewerkers. Het grote verschil tussen Centerfield en Tia4Me is dat Centerfield al een bestaand project is dat we moeten verbeteren. We hebben een aantal schermen moeten maken om de on- en offboarding taken te beheren.",
+    timestamp: "07/04/25 - 11/04/25",
   },
 };
 
