@@ -75,6 +75,12 @@ const blogData: Record<string, Blog> = {
     subcontent:
       "Het doel van het Centerfield project is om een tool te maken die de HR-afdeling helpt bij het beheren van de medewerkers. Het grote verschil tussen Centerfield en Tia4Me is dat Centerfield al een bestaand project is dat we moeten verbeteren. We hebben een aantal schermen moeten maken om de on- en offboarding taken te beheren.",
     timestamp: "07/04/25 - 11/04/25",
+  },"week-11": {
+    title: "Week 11",
+    content: "Gedurende week 11 hebben we weer terug aan Tia4Me gewerkt. We hebben een aantal nieuwe functionaliteiten toegevoegd waarnaar gevraagd werd. Dit omvat het toevoegen van een nieuw scherm en het verbeteren van enkele bestaande schermen.",
+    subcontent:
+      "We zijn veel moeten swappen tussen projecten omdat we ook aan Centerfield moesten werken. Dit was een behoorlijke uitdaging omdat we niet veel tijd hadden om ons in te werken in de nieuwe functionaliteiten. We hebben dit opgelost door een goede planning te maken en de tijd goed te verdelen.",
+    timestamp: "14/04/25 - 18/04/25",
   },
 };
 
