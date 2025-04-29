@@ -60,10 +60,14 @@
   color: #333; /* Verduidelijk de kleur bij hover om het meer zichtbaar te maken */
 }
 
-.blogList {
-  width: 80%;
-  max-width: 900px;
+.blogList ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolommen */
+  gap: 1.5rem; /* ruimte tussen de items */
+  padding: 0;
+  list-style: none;
 }
+
 
 .blogHeader {
   font-size: 2rem;

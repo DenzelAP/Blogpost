@@ -81,6 +81,18 @@ const blogData: Record<string, Blog> = {
     subcontent:
       "We zijn veel moeten swappen tussen projecten omdat we ook aan Centerfield moesten werken. Dit was een behoorlijke uitdaging omdat we niet veel tijd hadden om ons in te werken in de nieuwe functionaliteiten. We hebben dit opgelost door een goede planning te maken en de tijd goed te verdelen.",
     timestamp: "14/04/25 - 18/04/25",
+  },"week-12": {
+    title: "Week 12",
+    content: "Week 12 was weer een week waar er veel geswitched werd tussen projecten. We hebben een aantal nieuwe functionaliteiten toegevoegd aan Centerfield en Tia4Me.",
+    subcontent:
+      "Het switchen tussen projecten is een behoorlijke uitdaging omdat we niet veel tijd hebben om ons in te werken in de nieuwe functionaliteiten. We hebben dit opgelost door een goede planning te maken en de tijd goed te verdelen. We hebben ook een aantal nieuwe schermen moeten maken voor Centerfield.",
+    timestamp: "14/04/25 - 18/04/25",
+  },"week-13": {
+    title: "Week 13",
+    content: "Week 13 en het tia4me project is eindelijk afgerond. We hebben de laatste functionaliteiten toegevoegd en de laatste bugs opgelost.",
+    subcontent:
+      "Het werken aan een bestaande project brengt andere uitdagingen met zich mee. Persoonlijk vind ik het moeilijker om een bestaand project te verbeteren dan om een nieuw project te maken. Dit komt omdat je niet altijd weet wat de bedoeling is van de functionaliteiten die al bestaan. We hebben dit opgelost door veel te overleggen met onze collega's en mentor.",
+    timestamp: "14/04/25 - 18/04/25",
   },
 };
 

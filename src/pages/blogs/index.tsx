@@ -13,6 +13,8 @@ const blogList = [
   { id: "week-9", title: "Week 9", date: "31/03/25 - 04/04/25" },
   { id: "week-10", title: "Week 10", date: "07/04/25 - 11/04/25" },
   { id: "week-11", title: "Week 11", date: "14/04/25 - 18/04/25" },
+  { id: "week-12", title: "Week 12", date: "21/04/25 - 25/04/25" },
+  { id: "week-13", title: "Week 13", date: "28/04/25 - 02/05/25" },
 ];
 
 const Blogs = () => {
