@@ -86,13 +86,25 @@ const blogData: Record<string, Blog> = {
     content: "Week 12 was weer een week waar er veel geswitched werd tussen projecten. We hebben een aantal nieuwe functionaliteiten toegevoegd aan Centerfield en Tia4Me.",
     subcontent:
       "Het switchen tussen projecten is een behoorlijke uitdaging omdat we niet veel tijd hebben om ons in te werken in de nieuwe functionaliteiten. We hebben dit opgelost door een goede planning te maken en de tijd goed te verdelen. We hebben ook een aantal nieuwe schermen moeten maken voor Centerfield.",
-    timestamp: "14/04/25 - 18/04/25",
+    timestamp: "21/04/25 - 25/04/25",
   },"week-13": {
     title: "Week 13",
     content: "Week 13 en het tia4me project is eindelijk afgerond. We hebben de laatste functionaliteiten toegevoegd en de laatste bugs opgelost.",
     subcontent:
       "Het werken aan een bestaande project brengt andere uitdagingen met zich mee. Persoonlijk vind ik het moeilijker om een bestaand project te verbeteren dan om een nieuw project te maken. Dit komt omdat je niet altijd weet wat de bedoeling is van de functionaliteiten die al bestaan. We hebben dit opgelost door veel te overleggen met onze collega's en mentor.",
-    timestamp: "14/04/25 - 18/04/25",
+    timestamp: "28/04/25 - 02/05/25",
+  },"week-14": {
+    title: "Week 14",
+    content: "Week 14 was een week waar we aan Centerfield hebben gewerkt. Ikzelf heb een nieuw scherm moeten maken voor het beheren van vragen die horen bij gesprekken met medewerkers.",
+    subcontent:
+      "Deze vragen worden automatisch gegenereerd en moeten door de medewerkers beantwoord worden. Dit was een behoorlijke uitdaging omdat we niet veel tijd hadden om ons in te werken in de nieuwe functionaliteiten. We hebben dit opgelost door een goede planning te maken en de tijd goed te verdelen.",
+    timestamp: "05/05/25 - 09/05/25",
+  },"week-15": {
+    title: "Week 15",
+    content: "Gedurende week 165 heb ik heel eventjes terug aan Tia4Me gewerkt. De applicatie moest van naam veranderd worden en heet Xurrent-Tia. De applicatie van naam veranderen had een behoorlijke grote impact op de applicatie. De applicatie lag hierdoor een dag plat en we konden hierbij niet geholpen worden omdat onze verantwoordelijke die dag niet beschikbaar was.",
+    subcontent:
+      "We hebben het ook over Apex Project Eye gehad. Apex Project Eye is een tool die we kunnen gebruiken om de kwaliteit van onze code te verbeteren. We hebben een aantal voorbeelden gezien van hoe we deze tool kunnen gebruiken. Het genereert een overzicht van de code die we hebben geschreven en geeft aan waar we verbeteringen kunnen aanbrengen.",
+    timestamp: "12/05/25 - 16/05/25",
   },
 };
 
