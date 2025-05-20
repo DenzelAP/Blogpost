@@ -31,18 +31,45 @@ const Extra = () => {
         Projecten
       </h3>
       <ul>
-        <li>Tia 4 Me</li>
-        <li>Interne HR Tool</li>
+        <li>Xurrent-Tia</li>
       </ul>
-      <p  className={styles.paragraph}>
-        Het 4me-Tia-project vereist de ontwikkeling van APEX-schermen om
-        beheertaken te vergemakkelijken. Deze schermen zijn essentieel voor
-        beheerders om alle benodigde gegevens te configureren via een intuïtieve
-        en gebruiksvriendelijke interface. Er worden meerdere schermen gemaakt
-        om de configuratie van verschillende instellingen te ondersteunen. Het
-        was zeker een uitdaging om samen met Shreejan de meeste funtionaliteit
-        van Oracle Apex uit te zoeken aangezien we maar 1 dag opleiding hierover
-        kregen.
+      <p className={styles.paragraph}>
+        Xurrent-Tia (voorheen bekend als 4Me-Tia) is het nieuwe platform waarmee
+        administratieve medewerkers de gepresteerde uren van alle medewerkers
+        centraal kunnen registreren. Voor de komst van dit platform moesten deze
+        uren afzonderlijk ingevoerd worden in twee verschillende systemen (4Me
+        en Timesheet). Dankzij Xurrent-Tia volstaat het nu om deze registratie
+        slechts één keer uit te voeren, wat de efficiëntie en
+        gebruiksvriendelijkheid aanzienlijk verhoogt.
+      </p>
+
+      <p className={styles.paragraph}>
+        Deze applicatie werd door ons van scratch ontwikkeld.
+      </p>
+
+      <ul>
+        <li>Centerfield</li>
+      </ul>
+
+      <p className={styles.paragraph}>
+        Centerfield (Ook wel bekend als de HR-tool) is een interne applicatie
+        die ontwikkeld wordt om het werk van onze HR-medewerkers en
+        coördinatoren te vereenvoudigen. Alle gesprekken die moeten
+        plaatsvinden, zoals tussentijdse evaluaties, jaarlijkse gesprekken of
+        exitgesprekken, worden via de tool gestroomlijnd. Deze gesprekken worden
+        ook doorgestuurd naar de frontoffice: een onderdeel van de applicatie
+        waar andere medewerkers toegang toe hebben. Daar kunnen zij al hun
+        gesprekken en bijbehorende taken eenvoudig raadplegen. Daarnaast worden
+        ook praktische taken die bij een werknemer horen via de applicatie
+        beheerd. Denk hierbij aan onboarding- en offboardingtaken, zoals het
+        ophalen of inleveren van een badge, laptop of bedrijfswagen. Centerfield
+        was al een bestaande applicatie waaraan wij verbeteringen of
+        aanpassingen aan moesten brengen.
+      </p>
+
+      <p className={styles.paragraph}>
+        Centerfield was al een bestaande applicatie waaraan wij verbeteringen of
+        aanpassingen aan moesten brengen.
       </p>
 
       <h3
@@ -55,16 +82,14 @@ const Extra = () => {
         Systemen
       </h3>
       <p className={styles.paragraph}>
-        Het vetrouwd geraken met de systemen was een van de grootste
-        uitdagingen. Voor elk nieuw onderdeel kregen we een collega toegewezen
-        die ons hielp hiermee vertrouwd te geraken. Het feit dat ik met een
-        Macbook moest werken was ook even een uitdaging.
+        Het vetrouwd geraken met de systemen was een grote uitdagingen. Het feit
+        dat ik met een Macbook met een qwerty toetsenbord moest werken was ook
+        even een uitdaging.
       </p>
-      <p>De systemen waren :</p>
+      <p>Tech Stack:</p>
       <ul>
-        <li>Het intranet van Fieldside</li>
-        <li>Phishing Academy</li>
-        <li>Alle conventies</li>
+        <li>Oracle APEX</li>
+        <li>PL/SQL</li>
         <li>Liquibase</li>
       </ul>
       <h3
