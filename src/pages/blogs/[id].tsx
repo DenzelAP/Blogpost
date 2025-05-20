@@ -24,6 +24,20 @@ const BlogPage = () => {
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [images.length]);
 
+  const handleNext = () => {
+    const nextId = parseInt(id as string) + 1;
+    if (nextId <= 16) {
+      router.push(`/blogs/${nextId}`);
+    }
+  };
+
+  const handlePrevious = () => {
+    const prevId = parseInt(id as string) - 1;
+    if (prevId >= 1) {
+      router.push(`/blogs/${prevId}`);
+    }
+  };
+
   if (!blog) {
     return <p>Blog niet gevonden!</p>;
   }
@@ -41,6 +55,22 @@ const BlogPage = () => {
             alt={`Slide ${currentImageIndex}`}
             className={styles.blogImage}
           />
+        </div>
+        <div className={styles.navigationButtons}>
+          <button
+            onClick={handlePrevious}
+            disabled={parseInt(id as string) === 1}
+            className={styles.navButton}
+          >
+            Terug
+          </button>
+          <button
+            onClick={handleNext}
+            disabled={parseInt(id as string) === 16}
+            className={styles.navButton}
+          >
+            Volgende
+          </button>
         </div>
       </div>
     </div>
