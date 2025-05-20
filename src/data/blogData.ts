@@ -101,10 +101,16 @@ const blogData: Record<string, Blog> = {
     timestamp: "05/05/25 - 09/05/25",
   },"week-15": {
     title: "Week 15",
-    content: "Gedurende week 165 heb ik heel eventjes terug aan Tia4Me gewerkt. De applicatie moest van naam veranderd worden en heet Xurrent-Tia. De applicatie van naam veranderen had een behoorlijke grote impact op de applicatie. De applicatie lag hierdoor een dag plat en we konden hierbij niet geholpen worden omdat onze verantwoordelijke die dag niet beschikbaar was.",
+    content: "Gedurende week 15 heb ik heel eventjes terug aan Tia4Me gewerkt. De applicatie moest van naam veranderd worden en heet Xurrent-Tia. De applicatie van naam veranderen had een behoorlijke grote impact op de applicatie. De applicatie lag hierdoor een dag plat en we konden hierbij niet geholpen worden omdat onze verantwoordelijke die dag niet beschikbaar was.",
     subcontent:
       "We hebben het ook over Apex Project Eye gehad. Apex Project Eye is een tool die we kunnen gebruiken om de kwaliteit van onze code te verbeteren. We hebben een aantal voorbeelden gezien van hoe we deze tool kunnen gebruiken. Het genereert een overzicht van de code die we hebben geschreven en geeft aan waar we verbeteringen kunnen aanbrengen.",
     timestamp: "12/05/25 - 16/05/25",
+  },"week-16": {
+    title: "Week 16",
+    content: "Onze laatste week bij Contribute. Maandag hebben we nog de laatste bugs opgelost en de laatste functionaliteiten toegevoegd aan Centerfield en hadden we ook nog wat tijd over om onze presentatie voor te bereiden voor dinsdag.",
+    subcontent:
+      "Dinsdag hebben we onze eindpresentatie gegeven aan onze collega's.",
+    timestamp: "19/05/25 - 21/05/25",
   },
 };
 
