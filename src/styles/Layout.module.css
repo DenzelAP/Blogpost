@@ -1,34 +1,41 @@
 .topNav {
-  background-color: darkgray;
-  border-radius: 10px;
-  max-width: 1fr;
+  background-color: #1f2937; /* donkergrijs-blauw (Tailwind style) */
+  padding: 0 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 .topNav ul {
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 
 .topNav ul li a {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 1rem;
   text-decoration: none;
-  border-radius: 10px;
-  color: white;
-
+  color: #f9fafb; /* bijna wit */
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .topNav ul li a:hover {
-  background-color: rgb(175, 127, 134);
+  background-color: #374151; /* iets lichter grijs */
+  color: #fff;
 }
 
 .topNav ul li a.active {
-  background-color: lightpink;
+  background-color: #f472b6; /* mooie roze accentkleur */
+  color: white;
 }
+
 
 .headerImg {
   display: flex;
